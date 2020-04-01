@@ -1,6 +1,4 @@
 from .pages.main_page import MainPage
-from .pages.base_page import BasePage
-from selenium import webdriver
 
 def test_guest_can_go_to_login_page(browser):
     link = "http://selenium1py.pythonanywhere.com/"
